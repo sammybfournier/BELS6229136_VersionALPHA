@@ -18,11 +18,11 @@ html {
 
 /* Reset des éléments de base */
 body {
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
-    background-color: #fff;
+    background-color: var(--blanc);
     /* Fond blanc par défaut */
-    color: #000;
+    color: var(--noir);
     /* Couleur du texte par défaut */
 }
 
