@@ -26,6 +26,15 @@ body {
     /* Couleur du texte par défaut */
 }
 
+h1 {
+    font-family: 'Ethereal', serif;
+    text-transform: uppercase;
+}
+
+h2, h3 {
+    font-family: 'Chillen';
+}
+
 /* Reset des styles pour les liens */
 a {
     text-decoration: none;
