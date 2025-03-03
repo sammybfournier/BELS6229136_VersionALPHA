@@ -1,2 +1,38 @@
 /*[ COMPOSANT HEADER ]*/
 /* ------------------------------------------------------------ */
+
+header {
+    position: absolute;
+    background-color: var(--noir);
+    height: 56px;
+    width: 100%;
+}
+
+header .logo {
+    background-color: var(--noir);
+    border-radius: 22px;
+    height: 150px;
+    padding: 0 0.5em 1em 0.5em;
+    margin: 1em 0 0 24px;
+    transition: all ease-in 0.3s;
+
+    @media (min-width: 992px) {
+        height: 200px;
+    }
+}
+
+header #burger--menu {
+    height: 23px;
+    position: absolute;
+    top: 1em;
+    right: 1.5em;
+    fill: white;
+}
+
+header .background {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    height: 100vh;
+    object-fit: cover;
+}
