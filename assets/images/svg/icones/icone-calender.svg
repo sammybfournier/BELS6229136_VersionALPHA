@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="44.615" viewBox="0 0 40 44.615">
+  <g id="calender" transform="translate(-67.1 -58.3)">
+    <rect id="Rectangle_99" data-name="Rectangle 99" width="5.133" height="5.043" transform="translate(73.152 76.733)" fill="#fff"/>
+    <rect id="Rectangle_100" data-name="Rectangle 100" width="5.133" height="5.043" transform="translate(80.785 76.733)" fill="#fff"/>
+    <rect id="Rectangle_101" data-name="Rectangle 101" width="5.133" height="5.043" transform="translate(88.372 76.733)" fill="#fff"/>
+    <rect id="Rectangle_102" data-name="Rectangle 102" width="5.133" height="5.043" transform="translate(96.093 76.733)" fill="#fff"/>
+    <rect id="Rectangle_103" data-name="Rectangle 103" width="5.133" height="5.043" transform="translate(73.152 84.321)" fill="#fff"/>
+    <rect id="Rectangle_104" data-name="Rectangle 104" width="5.133" height="5.043" transform="translate(80.785 84.321)" fill="#fff"/>
+    <rect id="Rectangle_105" data-name="Rectangle 105" width="5.133" height="5.043" transform="translate(88.372 84.321)" fill="#fff"/>
+    <rect id="Rectangle_106" data-name="Rectangle 106" width="5.133" height="5.043" transform="translate(96.093 84.321)" fill="#fff"/>
+    <rect id="Rectangle_107" data-name="Rectangle 107" width="5.133" height="5.043" transform="translate(73.152 91.908)" fill="#fff"/>
+    <rect id="Rectangle_108" data-name="Rectangle 108" width="5.133" height="5.043" transform="translate(80.785 91.908)" fill="#fff"/>
+    <rect id="Rectangle_109" data-name="Rectangle 109" width="5.133" height="5.043" transform="translate(88.372 91.908)" fill="#fff"/>
+    <rect id="Rectangle_110" data-name="Rectangle 110" width="5.133" height="5.043" transform="translate(96.093 91.908)" fill="#fff"/>
+    <rect id="Rectangle_111" data-name="Rectangle 111" width="37" height="38.473" rx="10.1" transform="translate(68.6 62.942)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+    <rect id="Rectangle_112" data-name="Rectangle 112" width="37" height="2.633" transform="translate(68.6 70.976)" fill="#fff"/>
+    <rect id="Rectangle_113" data-name="Rectangle 113" width="3.437" height="9.016" rx="1.718" transform="translate(73.956 58.3)" fill="#fff"/>
+    <rect id="Rectangle_114" data-name="Rectangle 114" width="3.437" height="9.016" rx="1.718" transform="translate(81.633 58.3)" fill="#fff"/>
+    <rect id="Rectangle_115" data-name="Rectangle 115" width="3.437" height="9.016" rx="1.718" transform="translate(89.22 58.3)" fill="#fff"/>
+    <rect id="Rectangle_116" data-name="Rectangle 116" width="3.437" height="9.016" rx="1.718" transform="translate(96.897 58.3)" fill="#fff"/>
+  </g>
+</svg>
