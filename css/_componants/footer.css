@@ -1,2 +1,47 @@
 /*[ COMPOSANT FOOTER ]*/
 /* ------------------------------------------------------------ */
+
+footer {
+    padding: 60px 24px 60px 24px;
+    background-color: var(--grisFonce);
+    height: max-content;
+    color: var(--blanc);
+}
+
+footer section div {
+    margin-top: 1em;
+}
+
+footer .logo--horizon {
+    height: 70px;
+}
+
+footer .icon {
+    height: 1.5em;
+    color: var(--blanc);
+}
+
+footer .reseaux {
+    height: 3em;
+}
+
+footer .footer--contact .info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+}
+
+footer .footer--contact .info p {
+    margin-left: 1em;
+    font-size: 1.1em;
+}
+
+footer .footer--contact .footer--horaire {
+    flex-wrap: wrap;
+}
+
+footer .footer--contact .footer--horaire table {
+    margin-top: 1em;
+    font-size: 1em;
+}
