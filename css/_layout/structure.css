@@ -1,0 +1,26 @@
+/*[ STRUCTURE GÉNÉRALE DE LA PAGE ]*/
+/* ------------------------------------------------------------ */
+.interface {
+    position: relative;
+}
+
+
+/*[ STRUCTURE DE LA ZONE DE CONTENU ]*/
+
+
+
+
+
+
+/*[ STRUCTURE DU FOOTER ]*/
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.1fr 1fr 0.5fr;
+    gap: 3em;
+}
+
+footer .footer--reseaux {
+    display: flex;
+    flex-direction: row;
+}
