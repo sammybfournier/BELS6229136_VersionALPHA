@@ -14,6 +14,10 @@ footer section div {
 
 footer .logo--horizon {
     height: 70px;
+
+    @media (min-width: 992px) {
+        height: 100px;
+    }
 }
 
 footer .icon {
@@ -21,7 +25,7 @@ footer .icon {
     color: var(--blanc);
 }
 
-footer .reseaux {
+footer .reseau {
     height: 3em;
 }
 
