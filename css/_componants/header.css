@@ -8,10 +8,18 @@ header {
     width: 100%;
 }
 
+header a {
+    display: block;
+    width: fit-content;
+    height: fit-content;
+
+}
+
 header .logo {
     background-color: var(--noir);
     border-radius: 22px;
     height: 150px;
+    width: max-content;
     padding: 0 0.5em 1em 0.5em;
     margin: 0 0 0 24px;
     transition: all ease-in 0.3s;
@@ -19,12 +27,4 @@ header .logo {
     @media (min-width: 992px) {
         height: 200px;
     }
-}
-
-header #burger--menu {
-    height: 23px;
-    position: absolute;
-    top: 1em;
-    right: 1.5em;
-    fill: white;
 }
