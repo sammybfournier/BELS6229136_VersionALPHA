@@ -8,7 +8,110 @@
 </head>
 
 <body>
+    <header>
+        <img id="burger--menu" src="assets/images/svg/icones/icone-burger.svg" alt="" onclick="openNav()">
+        <a href="index.html">
+            <img class="logo" src="assets/images/svg/logo_principal.svg" alt="Logo Izakaya Hiroshi">
+        </a>
+    </header>
+    <img class="header--fond" src="assets/images/svg/placeholder.svg" alt="">
 
+    <nav id="nav--primary">
+        <div class="nav--close">
+            <a href="#" id="langue">FR</a>
+            <a href="javascript:void(0)" id="btn--close" onclick="closeNav()">&times;</a>
+        </div>
+
+        <div class="nav--conteneur">
+            <ul class="nav--liste">
+                <li class="nav--element"> <a href="index.html" onclick="redirection(event)">Accueil</a></li>
+                <li class="nav--element"> <a href="menu.html" onclick="redirection(event)">Menu</a></li>
+                <li class="nav--element"> <a href="reservation.html" onclick="redirection(event)">Réservations</a></li>
+                <li class="nav--element"> <a href="services.html" onclick="redirection(event)">Nos services</a></li>
+            </ul>
+        </div>
+
+        <img class="nav--img" src="assets/images/svg/placeholder.svg" alt="">
+
+        <div class="nav--infolettre">
+            <div>
+                <span>Abonnez-vous</span>
+                <span>à notre</span>
+                <span>infolettre</span>
+                <span>pour toutes les informations sur</span>
+                <span>nos promotions</span>
+            </div>
+            <form action="nav--inscription" id="nav--inscription">
+                <input type="email" id="email" name="email" placeholder="nom1234@gmail.com">
+                <input type="image" src="assets/images/svg/icones/icone-send.svg" id="btn-send">
+            </form>
+        </div>
+
+    </nav>
+
+    <main>
+
+    </main>
+    <footer>
+        <section class="footer--reseaux">
+            <img class=" logo--horizon" src="assets/images/svg/logo_horizon_blanc.svg"
+                alt="Logo Izakaya Hiroshi horizontal">
+            <div class="icones">
+                <img class="reseau" src="assets/images/svg/icones/icons8-facebook.svg" alt="">
+                <img class="reseau" src="assets/images/svg/icones/icons8-instagram.svg" alt="">
+                <img class="reseau" src="assets/images/svg/icones/icons8-linkedin.svg" alt="">
+            </div>
+        </section>
+        <section class="footer--contact">
+            <h2>Contact</h2>
+            <div class="footer--adress info">
+                <img class="icon" src="assets/images/svg/icones/icone-map.svg" alt="">
+                <p>123, Rue des Pins, Sainte-Agathe-des-Monts</p>
+            </div>
+            <div class="footer--num info">
+                <img class="icon" src="assets/images/svg/icones/icone-phone.svg" alt="">
+                <p>(819) 555-1234</p>
+            </div>
+            <div class="footer--horaire info">
+                <img class="icon" src="assets/images/svg/icones/icone-calender.svg" alt="">
+                <p>Heures d'ouverture</p>
+                <table>
+                    <tr>
+                        <td>Dimanche</td>
+                        <td>12:00 à 22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Lundi</td>
+                        <td>17:00 à 23:00</td>
+                    </tr>
+                    <tr>
+                        <td>Mardi</td>
+                        <td>17:00 à 23:00</td>
+                    </tr>
+                    <tr>
+                        <td>Mercredi</td>
+                        <td>17:00 à 23:00</td>
+                    </tr>
+                    <tr>
+                        <td>Jeudi</td>
+                        <td>17:00 à 23:00</td>
+                    </tr>
+                    <tr>
+                        <td>Vendredi</td>
+                        <td>17:00 à 23:00</td>
+                    </tr>
+                    <tr>
+                        <td>Samedi</td>
+                        <td>12:00 à 23:00</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section class="footer-propos">
+            <h2>À propos</h2>
+        </section>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
