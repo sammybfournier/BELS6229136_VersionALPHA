@@ -11,6 +11,13 @@
 }
 
 @font-face {
+    font-family: 'Ethereal Bold';
+    src: url('../../assets/fonts/ethereal/EtherealDemo-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Chillen';
     src: url('../../assets/fonts/Chillen.ttf') format('opentype');
     font-weight: normal;
