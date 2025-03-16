@@ -9,6 +9,10 @@
 @import url('_componants/header-fond.css');
 @import url('_componants/footer.css');
 @import url('_componants/nav-principal.css');
+@import url('_componants/nav-menu.css');
+@import url('_componants/nav-burger.css');
+@import url('_componants/nav-close.css');
+@import url('_componants/nav-infolettre.css');
 
 /*[ importation du dossier _layout ]*/
 @import url('_layout/structure.css');

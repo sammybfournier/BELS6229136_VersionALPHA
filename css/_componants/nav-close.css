@@ -1,0 +1,30 @@
+/*[ COMPOSANT NAV--CLOSE ]*/
+/* ------------------------------------------------------------ */
+
+.nav--close {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    height: 10%;
+    margin-right: 1.5em;
+    gap: 1em;
+
+    @media (min-width: 992px) {
+        position: absolute;
+        grid-column: 2/3;
+        justify-self: end;
+    }
+}
+
+#btn--close {
+    display: block;
+    font-size: 6em;
+    color: var(--noir);
+    cursor: pointer;
+    height: max-content;
+
+    &:hover {
+        color: var(--rougeFonce);
+    }
+}

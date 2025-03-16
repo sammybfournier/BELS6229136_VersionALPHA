@@ -1,0 +1,16 @@
+/*[ COMPOSANT NAV--BURGER ]*/
+/* ------------------------------------------------------------ */
+
+#burger--menu {
+    height: 2em;
+    position: absolute;
+    top: 0.7em;
+    right: 1.5em;
+    fill: white;
+    border: 2px solid var(--blanc);
+    padding: 0.2em;
+
+    &:hover {
+        border: 2px solid var(--rougeFonce);
+    }
+}

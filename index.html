@@ -11,19 +11,44 @@
 <body>
     <header>
         <img id="burger--menu" src="assets/images/svg/icones/icone-burger.svg" alt="" onclick="openNav()">
-        <img class="logo" src="assets/images/svg/logo_principal.svg" alt="Logo Izakaya Hiroshi">
+        <a href="index.html">
+            <img class="logo" src="assets/images/svg/logo_principal.svg" alt="Logo Izakaya Hiroshi">
+        </a>
     </header>
     <img class="header--fond" src="assets/images/svg/placeholder.svg" alt="">
 
-    <!-- <nav id="nav--primary">
+    <nav id="nav--primary">
+        <div class="nav--close">
+            <a href="#" id="langue">FR</a>
             <a href="javascript:void(0)" id="btn--close" onclick="closeNav()">&times;</a>
+        </div>
+
+        <div class="nav--conteneur">
             <ul class="nav--liste">
-                <li class="nav--element"> <a href="" onclick="redirection(event)"></a>Accueil</li>
-                <li class="nav--element"> <a href="" onclick="redirection(event)"></a>Menu</li>
-                <li class="nav--element"> <a href="" onclick="redirection(event)"></a>Réservations</li>
-                <li class="nav--element"> <a href="" onclick="redirection(event)"></a>Nos services</li>
+                <li class="nav--element"> <a href="index.html" onclick="redirection(event)">Accueil</a></li>
+                <li class="nav--element"> <a href="menu.html" onclick="redirection(event)">Menu</a></li>
+                <li class="nav--element"> <a href="reservation.html" onclick="redirection(event)">Réservations</a></li>
+                <li class="nav--element"> <a href="services.html" onclick="redirection(event)">Nos services</a></li>
             </ul>
-        </nav> -->
+        </div>
+
+        <img class="nav--img" src="assets/images/svg/placeholder.svg" alt="">
+
+        <div class="nav--infolettre">
+            <div>
+                <span>Abonnez-vous</span>
+                <span>à notre</span>
+                <span>infolettre</span>
+                <span>pour toutes les informations sur</span>
+                <span>nos promotions</span>
+            </div>
+            <form action="nav--inscription" id="nav--inscription">
+                <input type="email" id="email" name="email" placeholder="nom1234@gmail.com">
+                <input type="image" src="assets/images/svg/icones/icone-send.svg" id="btn-send">
+            </form>
+        </div>
+
+    </nav>
 
     <main>
 
