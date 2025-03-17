@@ -13,6 +13,7 @@
 @import url('_componants/nav-burger.css');
 @import url('_componants/nav-close.css');
 @import url('_componants/nav-infolettre.css');
+@import url('_componants/erreur.css');
 
 /*[ importation du dossier _layout ]*/
 @import url('_layout/structure.css');

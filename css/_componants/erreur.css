@@ -1,0 +1,46 @@
+/*[ COMPOSANT PAGE 404 ]*/
+/* ------------------------------------------------------------ */
+
+.erreur span {
+    position: absolute;
+    top: 4em;
+    font-size: 4em;
+    font-family: 'Chillen';
+    color: var(--rougeFonce);
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 0 1em 0 1em;
+
+    @media (min-width: 992px) {
+        top: 3.5em;
+    }
+    
+    @media (min-width: 1920px) {
+        top: 4em;
+        font-size: 6em;
+    }
+}
+
+.erreur h1 {
+    position: relative;
+    font-size: 12em;
+    color: var(--grisFonce);
+
+    @media (min-width: 992px) {
+        font-size: 16em;
+    }
+
+    @media (min-width: 1920px) {
+        font-size: 20em;
+    }
+}
+
+.erreur .btn-retour {
+    background-color: var(--rougeFonce);
+    padding: 1em;
+    border-radius: 1.5em;
+
+    &:hover {
+        background-color: var(--rougePale);
+    }
+}
