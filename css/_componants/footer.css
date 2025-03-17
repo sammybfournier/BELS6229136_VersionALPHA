@@ -3,7 +3,7 @@
 
 footer {
     padding: 60px 24px 60px 24px;
-    background-color: var(--grisFonce);
+    background-color: var(--noir);
     height: max-content;
     color: var(--blanc);
 }
@@ -16,7 +16,7 @@ footer .footer--logo {
     height: 10em;
 
     @media (min-width: 992px) {
-        height: 100px;
+        height: 16em;
     }
 }
 
