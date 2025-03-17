@@ -12,8 +12,8 @@ footer section div {
     margin-top: 1em;
 }
 
-footer .logo--horizon {
-    height: 70px;
+footer .footer--logo {
+    height: 10em;
 
     @media (min-width: 992px) {
         height: 100px;
