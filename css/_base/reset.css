@@ -29,11 +29,24 @@ body {
 h1 {
     font-family: 'Ethereal', serif;
     text-transform: uppercase;
+    font-size: 2.5em;
+
+    @media (min-width: 992px) {
+        font-size: 4.3em;
+    }
+
+    @media (min-width: 1920px) {
+        font-size: 12.5em;
+    }
 }
 
 h2, h3 {
     font-family: 'Chillen', serif;
     letter-spacing: 3px;
+}
+
+p {
+    font-family: 'Montserrat';
 }
 
 /* Reset des styles pour les liens */

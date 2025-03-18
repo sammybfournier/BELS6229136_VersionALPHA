@@ -1,6 +1,16 @@
 /*[ COMPOSANT PAGE 404 ]*/
 /* ------------------------------------------------------------ */
 
+.erreur {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto
+}
+
 .erreur span {
     position: absolute;
     top: 4em;
@@ -14,7 +24,7 @@
     @media (min-width: 992px) {
         top: 3.5em;
     }
-    
+
     @media (min-width: 1920px) {
         top: 4em;
         font-size: 6em;

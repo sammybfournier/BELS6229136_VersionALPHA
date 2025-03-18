@@ -1,0 +1,54 @@
+/*[ COMPOSANT DE LA SECTION TABLE D'HOTE ]*/
+/* ------------------------------------------------------------ */
+
+.table {
+    background-color: var(--paleGris);
+    padding: 2.8em 1.5em;
+    height: max-content;
+}
+
+.table h1 {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.table--choix {
+    display: flex;
+    gap: 1.5em;
+}
+
+.table--repas {
+    display: grid;
+    grid-template-columns: 1.5fr 0.2fr;
+    grid-template-rows: 0.5fr 0.5fr;
+
+}
+
+.table--plats {
+    font-size: 1em;
+    font-weight: bold;
+    grid-column: 1/2;
+}
+
+.table--description {
+    font-size: 0.8em;
+    margin-bottom: 1.5em;
+    grid-column: 1/2;
+}
+
+.table--prix {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: end;
+    text-align: right;
+}
+
+/* .table--prix {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 3em;
+    font-size: 1em;
+
+} */
