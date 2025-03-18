@@ -6,30 +6,25 @@ header {
     background-color: var(--noir);
     height: 3.5em;
     width: 100%;
-}
-
-/* header a {
-    display: block;
-    width: fit-content;
-    height: fit-content;
-
-} */
-
-/* header .logo {
-    background-color: var(--noir);
-    border-radius: 22px;
-    height: 150px;
-    width: max-content;
-    padding: 0 0.5em 1em 0.5em;
-    margin: 0 0 0 24px;
-    transition: all ease-in 0.3s;
 
     @media (min-width: 992px) {
-        height: 200px;
+        height: 4em;
     }
-} */
+
+    @media (min-width: 1920px) {
+        height: 5em;
+    }
+}
 
 header .logo {
     height: 2.25em;
     margin: 0.6em 0 0 1.5em;
+
+    @media (min-width: 992px) {
+        height: 2.75em;
+    }
+
+    @media (min-width: 1920px) {
+        height: 3.75em;
+    }
 }

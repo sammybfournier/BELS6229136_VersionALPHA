@@ -13,4 +13,12 @@
     &:hover {
         border: 2px solid var(--rougeFonce);
     }
+
+    @media (min-width: 992px) {
+        height: 2.5em;
+    }
+
+    @media (min-width: 1920px) {
+        height: 3em;
+    }
 }
