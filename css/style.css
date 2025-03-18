@@ -15,6 +15,7 @@
 @import url('_componants/nav-infolettre.css');
 @import url('_componants/erreur.css');
 @import url('_componants/table.css');
+@import url('_componants/entrees.css');
 
 /*[ importation du dossier _layout ]*/
 @import url('_layout/structure.css');

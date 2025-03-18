@@ -1,0 +1,21 @@
+/*[ COMPOSANT SECTION ENTREES ]*/
+/* ------------------------------------------------------------ */
+
+.entrees {
+    width: 100%;
+    background-image: url(../../assets/images/svg/arch.svg), linear-gradient(var(--rougeFonce), var(--rougeDegrade), var(--rougeFonce));
+    background-size: cover;
+    opacity: 1, 0.4;
+}
+
+.entrees--choix {
+    padding-right: 3.5em;
+}
+
+.entrees--img {
+    position: relative;
+    left: 3.5em;
+    width: 18em;
+    height: 18em;
+    object-fit: cover;
+}
